@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/wangtao4256/config-server/
+          search-paths: /config
+server:
+  port: 7001
