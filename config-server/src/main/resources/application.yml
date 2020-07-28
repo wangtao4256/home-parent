@@ -5,7 +5,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/wangtao4256/config-server/
+          uri: https://github.com/wangtao4256/config-server.git
           search-paths: /config
+          username: wangtao4256@163.com
+          password: wangtao19941019
 server:
   port: 7001
