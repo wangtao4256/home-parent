@@ -10,7 +10,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableEurekaClient
 @SpringBootApplication
 @EnableFeignClients
-@MapperScan("com.home.wangtao.homeadmin.mapper")
 public class HomeAdminApplication {
 
     public static void main(String[] args) {
